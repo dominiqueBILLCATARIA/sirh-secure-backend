@@ -2,11 +2,15 @@
   "name": "sirh-proxy-server",
   "version": "1.0.0",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0 <=20.x",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.93.3",
+    "@supabase/supabase-js": "2.39.8",
     "archiver": "^7.0.1",
     "axios": "^1.6.0",
     "web-push": "^3.6.7",
@@ -24,9 +28,7 @@
     "docxtemplater-image-module-free": "^1.1.1",
     "p-limit": "^3.1.0",
     "image-size": "^1.0.2",
-    "jimp": "^0.22.10" 
+    "jimp": "^0.22.10",
+    "ws": "^8.14.2"
   }
 }
-
-
-
